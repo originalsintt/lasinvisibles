@@ -67,6 +67,9 @@ section {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+}
 
 
 #headerBox {
@@ -864,4 +867,5 @@ p.one {
     position: absolute;
   display: flex;
   top: 0;
+  overflow: hidden;
 }

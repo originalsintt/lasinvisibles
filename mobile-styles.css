@@ -59,9 +59,9 @@
     width: 100%;
   }
   .sideText {
-    position: relative;
-    left: auto;
-    right: auto;
+    position: inherit;
+    /* left: auto;
+    right: auto; */
     width: 100%;
   }
   .gif__wrapper {
