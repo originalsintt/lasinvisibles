@@ -1,0 +1,165 @@
+.show-only-on-mobile {
+  display: none;
+}
+
+
+/*  SMARTPHONE */
+@media only screen and (max-width: 599px) {
+
+  .mobile__order__1 {
+    order: 1;
+  }
+  .mobile__order__2 {
+    order: 2;
+  }
+  .mobile__order__3 {
+    order: 3;
+  }
+  .mobile__order__4 {
+    order: 4;
+  }
+
+  .show-not-on-mobile {
+    display: none;
+  }
+
+  .show-only-on-mobile {
+    display: block;
+  }
+
+  main {
+    margin: 15px;
+    border: none;
+    border-style: none;
+    border-width: 0;
+  }
+  #headerBox {
+    width: 100%;
+    margin: 50px;
+  }
+  section {
+    flex-direction: column;
+    height: 100%;
+  }
+  .textBox__titleBox {
+    width: 100%;
+    height: 50px;
+  }
+  .textBox__titleBox__mobile__doubleRow {
+    width: 100%;
+    height: 80px;
+  }
+  .intro__hed {
+    margin: 0;
+    font-size: 32pt;
+    text-shadow: none;
+    line-height: 32pt;
+  }
+  .schiene__left, .schiene__right {
+    width: 100%;
+  }
+  .sideText {
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 100%;
+  }
+  .gif__wrapper {
+    height: 200px;
+  }
+  #tropfen {
+    margin-top: 100px;
+  }
+  #zote {
+    margin-top: -75px;
+  }
+  #section__3 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  #section__5 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  #besen {
+    margin-bottom: 400px;
+    max-width: 110%;
+  }
+  #section__8 {
+    padding-top: 0;
+  }
+
+  .stickyBox {
+    flex-direction: column;
+display: flex;
+  }
+  .extrasideTextPadding_Left_Top {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .sideText__small {
+    width: 100%;
+    height: 100%;
+  }
+  .table {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .table__cell {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mooble__textAlign_center {
+    text-align: center;
+  }
+  .video__wrapperSmall {
+    margin-top: 50px;
+margin-bottom: 50px;
+left: auto;
+  }
+  #lappenBox {
+    height: 500px;
+  }
+  .lappen__figure {
+    padding: 0;
+  }
+  .lappen__bar {
+    top: 0;
+  }
+  #textOverlay__laken {
+    position: absolute;
+    padding-top: 50px;
+    padding-right: 0;
+    width: auto;
+  }
+  #stern {
+    width: 120%;
+    padding: 0;
+    margin: 0;
+    margin-left: -20px;
+  }
+  #textOverlay__stern {
+    padding: 0;
+    font-size: 12pt;
+  }
+}
+
+
+/*  NORMAL SCREEN / IPAD */
+@media only screen and (min-width: 600px ) {
+
+}
+
+
+/*  DESKTOP SCREEN */
+
+@media only screen and (min-width: 980px ) {
+
+}
+
+/*  EXTRA LARGE SCREEN */
+
+@media only screen and (min-width: 1260px ) {
+
+}
